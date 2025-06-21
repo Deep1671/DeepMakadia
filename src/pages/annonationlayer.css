@@ -1,0 +1,70 @@
+/* AnnotationLayer.css */
+
+.annotationLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.annotationLayer a {
+  pointer-events: auto;
+  cursor: pointer;
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+.annotationLayer .linkAnnotation {
+  cursor: pointer;
+  pointer-events: auto;
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+.annotationLayer .strikeOut {
+  text-decoration: line-through;
+}
+
+.annotationLayer .underline {
+  text-decoration: underline;
+}
+
+.annotationLayer .highlight {
+  background-color: yellow;
+  opacity: 0.4;
+}
+
+.annotationLayer .popup {
+  display: none;
+}
+
+.annotationLayer .popup:hover {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 12px;
+  max-width: 200px;
+}
+
+.annotationLayer .textWidgetAnnotation {
+  border: 1px solid #777;
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  padding: 2px 4px;
+  resize: none;
+  outline: none;
+}
+
+.annotationLayer .popupWrapper {
+  position: relative;
+}
+
+.annotationLayer .popupWrapper:hover .popup {
+  display: block;
+}
