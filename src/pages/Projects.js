@@ -4,7 +4,7 @@ import projectData from "../data/Projects";
 const Projects = () => {
   return (
     <div className="container py-5 text-white">
-      <h2 className="mb-4">My Projects</h2>
+      <h2 className="mb-4 text-center">My Projects</h2>
       <div className="row">
         {projectData.map((project, index) => (
           <div key={index} className="col-md-4 col-lg-4 mb-4">
