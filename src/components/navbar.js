@@ -12,13 +12,13 @@ const NavigationBar = () => {
           <Nav className="ms-auto">
             <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
             <Nav.Link as={NavLink} to="/about">About</Nav.Link>
-            <Nav.Link as={NavLink} to="/projects">Projects</Nav.Link>
-            <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
-            <Nav.Link as={NavLink} to="/resume">Resume</Nav.Link>
-            <Nav.Link as={NavLink} to="/Experience">Experience</Nav.Link>
-            <Nav.Link as={NavLink} to="/skills">Skills</Nav.Link>
             <Nav.Link as={NavLink} to="/personal">Personal Information</Nav.Link>
             <Nav.Link as={NavLink} to="/Education">Education</Nav.Link>
+            <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
+            <Nav.Link as={NavLink} to="/skills">Skills</Nav.Link>
+            <Nav.Link as={NavLink} to="/resume">Resume</Nav.Link>
+            <Nav.Link as={NavLink} to="/experience">Experience</Nav.Link>
+            <Nav.Link as={NavLink} to="/projects">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
