@@ -19,6 +19,16 @@ export const projectData = [
     liveDemo: "",
     image: "Netflix.png"
   },
+{
+  title: "Amazon E-Commerce Sales Analysis",
+  description:
+    "A comprehensive data analysis project that explored customer behavior, product performance, and operational trends using Amazon’s sales transaction data. Conducted deep exploratory and statistical analysis to identify seasonal spikes, top-selling categories, order status distribution, size preferences, and state-level fulfillment performance. Used Python libraries (Pandas, Seaborn, Matplotlib, SciPy) for data cleaning, visualization, and hypothesis testing (Anderson-Darling, Mann-Whitney U, Kruskal-Wallis). Key insights included sales peaking in April, dominance of M/L/XL sizes in T-shirts, regional delays in Maharashtra and Karnataka, and overreliance on Amazon.in as a sales channel. Final recommendations focused on campaign timing, B2B expansion, size-specific inventory, and personalized marketing strategies. This project combines business acumen with technical rigor to support data-driven decision-making in e-commerce.",
+  techStack: ["Python", "Pandas", "Seaborn", "Matplotlib", "SciPy"],
+  github: "https://github.com/Deep1671/Amazon-Sales-.git",
+  liveDemo: "",
+  refrence:"https://images.app.goo.gl/RjLFTCdfE8eo5f2W7",
+  image: "/Amazon-Logo.jpg"
+},
   {
   title: "BrainBoost AI",
   description:
@@ -46,19 +56,7 @@ export const projectData = [
   liveDemo: "",
   refrence:"https://images.app.goo.gl/YmjrgSRmKgAtwk6W9",
   image: "uber logo.avif", // Adjust image path as per your folder structure
-},
-{
-  title: "Amazon E-Commerce Sales Analysis",
-  description:
-    "A comprehensive data analysis project that explored customer behavior, product performance, and operational trends using Amazon’s sales transaction data. Conducted deep exploratory and statistical analysis to identify seasonal spikes, top-selling categories, order status distribution, size preferences, and state-level fulfillment performance. Used Python libraries (Pandas, Seaborn, Matplotlib, SciPy) for data cleaning, visualization, and hypothesis testing (Anderson-Darling, Mann-Whitney U, Kruskal-Wallis). Key insights included sales peaking in April, dominance of M/L/XL sizes in T-shirts, regional delays in Maharashtra and Karnataka, and overreliance on Amazon.in as a sales channel. Final recommendations focused on campaign timing, B2B expansion, size-specific inventory, and personalized marketing strategies. This project combines business acumen with technical rigor to support data-driven decision-making in e-commerce.",
-  techStack: ["Python", "Pandas", "Seaborn", "Matplotlib", "SciPy"],
-  github: "https://github.com/Deep1671/Amazon-Sales-.git",
-  liveDemo: "",
-  refrence:"https://images.app.goo.gl/RjLFTCdfE8eo5f2W7",
-  image: "/Amazon-Logo.jpg"
 }
-
-
 
 
 ];
