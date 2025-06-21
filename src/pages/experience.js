@@ -9,11 +9,10 @@ const Experience = () => {
       title: "Treasurer – ACM Student Chapter, Nirma University",
       subtitle: "Treasurer | ACM Student Chapter, Nirma University | Aug 2024 – Present",
       bullets: [
-        "Managed and maintained financial records for all club events, ensuring transparency and timely reporting to university authorities.",
-        "Created and tracked annual budgets, allocating funds efficiently across technical workshops, expert sessions, and competitions.",
-        "Collaborated with core team members to secure sponsorships and handle reimbursements, raising ₹15,000+ in external funding.",
-        "Implemented digital tools (Excel, Google Sheets) for accurate bookkeeping, reducing manual errors and improving audit readiness.",
-        "Played a key role in organizing club activities, handling logistics and vendor payments while staying within budget constraints.",
+        "Managed budgeting, expense tracking, and financial reporting for all chapter activities and events.",
+        "Led end-to-end event planning for speaker sessions, technical workshops, and hackathons.",
+        "Coordinated with sponsors, vendors, and internal teams to ensure smooth logistics and resource allocation.",
+        "Maintained accurate financial records using Excel and Google Sheets for regular audits and reviews.",
       ],
     },
     {
@@ -22,10 +21,11 @@ const Experience = () => {
       title: "Web Design Intern – Brainybeam Technologies",
       subtitle: "Web Design Intern (React Developer) | Ahmedabad, India | May 2025 – Jun 2025",
       bullets: [
-        "Developed responsive and user-friendly web interfaces using React.js and React-Bootstrap for client-facing applications.",
-        "Collaborated with senior developers to implement reusable components and optimized front-end performance.",
-        "Applied modern UI/UX principles and ensured cross-browser compatibility across major devices.",
-        "Participated in daily stand-ups and version control using GitHub, ensuring smooth collaboration and timely project delivery.",
+        "Designed and developed responsive UI pages for core modules such as blood stock management, requests, donation scheduling, and notifications.",
+        "Utilized the MERN stack (MongoDB, Express.js, React.js, Node.js) with a focus on React for frontend development.",
+        "Ensured clean, user-friendly interfaces aligned with modern design principles and cross-device compatibility.",
+        "Collaborated with the backend team to integrate APIs and test functionality for real-time updates and system alerts.",
+        "Contributed to improving user experience through iterative UI enhancements based on team feedback.",
       ],
     },
     {
