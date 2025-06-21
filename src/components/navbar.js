@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Route } from 'react-router-dom';
 const NavigationBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
