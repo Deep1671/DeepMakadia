@@ -31,8 +31,8 @@ const Experience = () => {
     {
       id: 3,
       icon: <FaChartLine className="me-2 text-success fs-4" />,
-      title: "Data Science Intern – Innobyte Technologies",
-      subtitle: "Data Science Intern | Remote | Jun 2025 – Jul 2025",
+      title: "Data Analyst Intern – Innobyte Technologies",
+      subtitle: "Data Analyst Intern | Remote | Jun 2025 – Jul 2025",
       bullets: [
         "Analyzed large e-commerce datasets to derive customer insights and product performance trends.",
         "Used Python, Pandas, and Matplotlib for exploratory data analysis and visualization.",
