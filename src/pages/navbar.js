@@ -5,6 +5,13 @@ const NavbarComponent = () => {
     <Navbar bg="light" expand="lg" fixed="top" className="shadow-sm">
       <Container>
         <Navbar.Brand href="#home" className="fw-bold text-primary">
+       <img
+          src="qt=q_95.webp" // <-- Replace with actual image path or URL
+          alt="Logo"
+          width="40"
+          height="40"
+          className="d-inline-block align-center"
+        />  
           Deep Makadia
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
