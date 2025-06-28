@@ -6,7 +6,7 @@ const NavbarComponent = () => {
      <Container>
         <Navbar.Brand as={NavLink} to="/">
         <img
-          src="qt=q_95.webp" // <-- Replace with actual image path or URL
+          src="${process.env.PUBLIC_URL}/qt=q_95.webp" // <-- Replace with actual image path or URL
           alt="Logo"
           width="40"
           height="40"
