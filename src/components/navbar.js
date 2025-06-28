@@ -5,8 +5,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const NavigationBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-      <Container>
-        <Navbar.Brand as={NavLink} to="/">Deep Makadia</Navbar.Brand>
+       <Container>
+        <Navbar.Brand as={NavLink} to="/">
+        <img
+          src="qt=q_95.webp" // <-- Replace with actual image path or URL
+          alt="Logo"
+          width="40"
+          height="40"
+          className="d-inline-block align-center"
+        />  Deep Makadia</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="ms-auto">
