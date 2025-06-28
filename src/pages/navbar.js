@@ -6,7 +6,7 @@ const NavbarComponent = () => {
       <Container>
         <Navbar.Brand href="#home" className="fw-bold text-primary">
        <img
-          src="qt=q_95.webp" // <-- Replace with actual image path or URL
+          src="/qt=q_95.webp" // <-- Replace with actual image path or URL
           alt="Logo"
           width="40"
           height="40"
