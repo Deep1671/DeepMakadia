@@ -141,7 +141,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="text-danger text-decoration-none"
                   >
-                    deep1671
+                    Deep1671
                   </a>
                 </li>
                       
