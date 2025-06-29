@@ -109,7 +109,7 @@ const Contact = () => {
                   <FaFacebook className="me-2 text-primary" />
                   Facebook:{" "}
                   <a
-                    href="https://www.facebook.com/deepmakadia"
+                    href="https://www.facebook.com/profile.php?id=61560461340411"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary text-decoration-none"
@@ -122,7 +122,7 @@ const Contact = () => {
                   <FaInstagram className="me-2 text-danger" />
                   Instagram:{" "}
                   <a
-                    href="https://www.instagram.com/d._m_.2012"
+                    href="https://www.instagram.com/d_.m_.2012"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-danger text-decoration-none"
