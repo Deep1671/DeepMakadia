@@ -130,6 +130,20 @@ const Contact = () => {
                     d_.m_.2012
                   </a>
                 </li>
+
+                <li className="mb-3">
+                  <FaGithub className="me-2 text-danger" />
+                  Github:{" "}
+                  <a
+                    href="https://www.github.com/deep1671"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-danger text-decoration-none"
+                  >
+                    deep1671
+                  </a>
+                </li>
+                      
               </ul>
 
               <div className="mt-4 p-4 rounded bg-secondary bg-opacity-10 border-start border-4 border-info">
