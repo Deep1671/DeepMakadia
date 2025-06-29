@@ -127,7 +127,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="text-danger text-decoration-none"
                   >
-                    d._m_.2012
+                    d_.m_.2012
                   </a>
                 </li>
               </ul>
