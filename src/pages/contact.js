@@ -5,6 +5,7 @@ import {
   FaWhatsapp,
   FaFacebook,
   FaInstagram,
+  FaGithub,
 } from "react-icons/fa";
 
 const Contact = () => {
