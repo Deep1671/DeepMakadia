@@ -1,38 +1,85 @@
+/* Glowing Card Effect - Always On */
+.card-glow {
+  position: relative;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background-color: #212529; /* Dark gray background */
+  color: white;
+  border: 2px solid #f39c12;
+  overflow: hidden;
+  transition: border-color 0.4s ease, box-shadow 0.4s ease;
+  cursor: default;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow:
+    0 0 8px 2px #f39c12,
+    0 0 20px 6px rgba(243, 156, 18, 0.6),
+    0 0 30px 10px rgba(243, 156, 18, 0.4);
+}
 
+/* Always-on shine animation */
+.card-glow::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  transform: rotate(25deg) translateX(-100%);
+  pointer-events: none;
+  z-index: 1;
+  animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    transform: rotate(25deg) translateX(-100%);
+  }
+  100% {
+    transform: rotate(25deg) translateX(100%);
+  }
+}
+
+/* Section styling */
 .about-section {
-  min-height: 1vh;
-  background-color: #0f172a; /* Dark slate background */
-  color: #ffffff;
-  padding: 60px 20px;
-  display: ;
+  min-height: 100vh;
+  background-color: transparent;
+  display: flex;
   align-items: center;
   justify-content: center;
+  padding: 60px 20px;
 }
 
-.about-container {
-  max-width: 0px;
-  background-color: #1e293b; /* Slightly lighter than background */
-  padding:1px;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-}
-
+/* Title */
 .about-title {
   font-size: 2.5rem;
-  font-weight: 800px;
+  font-weight: 800;
   color: #38bdf8; /* Sky blue */
   text-align: center;
   margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
 }
 
+/* Text paragraphs */
 .about-text {
   font-size: 1.1rem;
-  line-height: 1.1;
+  line-height: 1.6;
   color: #e2e8f0; /* Light gray */
   text-align: center;
+  margin-bottom: 1.5rem;
+  z-index: 2;
+  position: relative;
 }
 
+/* Highlighted phrases */
 .about-highlight {
-  color: #7dd3fc; /* Lighter sky */
-  font-weight: 120px;
+  color: #7dd3fc;
+  font-weight: bold;
 }
