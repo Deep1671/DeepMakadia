@@ -7,19 +7,14 @@ const About = () => {
      <div className="card-glow">
       <div className="about-container">
         <h2 className="about-title">👨‍💻 About Me</h2>
-        <p className="about-text">
-          Hi, I’m <span className="about-highlight">Deep Makadia</span> — a passionate and driven Computer Science Engineering student at <span className="about-highlight">Nirma University</span>, specializing in <span className="about-highlight">Data Science</span> and <span className="about-highlight">Web Development</span>. I’m currently pursuing a minor in Marketing at IMNU, which enhances my understanding of how technology meets consumer behavior and business strategies.
-        </p>
-        <p className="about-text">
-          Over the past few years, I’ve built a solid foundation in both technical and analytical skills, solving over <span className="about-highlight">500+ coding problems</span> on LeetCode and Codeforces. My key projects include <span className="about-highlight">BrainBoost</span>, an AI-powered learning system, a <span className="about-highlight">Malware Classification model</span> (Mined Hackathon), and insightful analyses of <span className="about-highlight">Netflix Titles</span>, <span className="about-highlight">Amazon Sales</span>, and <span className="about-highlight">E-commerce Customer Behavior</span>.
-        </p>
-        <p className="about-text">
-          Professionally, I’m gaining hands-on experience through internships in <span className="about-highlight">Data Science</span> (Innobyte Technologies) and <span className="about-highlight">React Web Development</span> (Brainybeam Technologies). I also serve as <span className="about-highlight">Treasurer</span> of the ACM Student Chapter, managing finances and organizing expert sessions. 
-         </p>
-         <p className="about-text">
-          Outside of tech, I’m a huge cricket fan, and I love exploring new tools, trends, and ideas that challenge me to grow.
-        </p>
-      </div>
+  <p>
+        I am a Computer Science student specializing in Data Analytics, with a strong focus on extracting actionable insights from real-world data rather than producing superficial reports. My core skill set lies in Python (Pandas, NumPy) for data manipulation and exploratory analysis, and Power BI for building interactive, insight-driven dashboards that support decision-making.
+        During my internship at Innobyte Technologies, I worked hands-on with business datasets, where I was responsible for cleaning, transforming, and analyzing data to identify trends, inefficiencies, and performance gaps. I designed interactive Power BI dashboards that translated complex data into clear visual narratives, enabling stakeholders to monitor KPIs, compare performance across dimensions, and make data-backed decisions without needing technical expertise. My work emphasized clarity, performance optimization, and relevance—every visualization served a purpose.
+        I approach data analysis as a structured problem-solving process. I start by understanding the business objective, convert it into measurable questions, perform exploratory data analysis to uncover patterns and anomalies, and then communicate insights through concise visualizations and explanations. I am comfortable handling messy datasets, dealing with missing values and outliers, and writing clean, reproducible analysis code.
+        Beyond my internship experience, I have completed multiple analytics projects involving sales analysis, job salary trends, and large-scale EDA, where I applied statistical reasoning and visualization techniques to extract meaningful insights. These projects strengthened my ability to work independently, validate assumptions with data, and present findings in a way that drives action rather than just observation.
+        I am actively seeking opportunities as a Data Analyst where I can contribute analytical thinking, technical expertise, and a results-oriented mindset. I am particularly interested in roles that value depth of analysis, clarity of communication, and real business impact over vanity metrics and decorative dashboards.
+    </p>  
+    </div>
     </div>
     </div>
   );
