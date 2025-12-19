@@ -11,7 +11,7 @@ const Resume = () => {
           Feel free to download my latest resume for more details on my skills and experience.
         </p>
         <a
-          href="/Deep_Resume.pdf" // Put your resume PDF in public/resume folder
+          href="Deep_Makadia (16).pdf" // Put your resume PDF in public/resume folder
           download
           className="inline-block bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700 transition"
         >
