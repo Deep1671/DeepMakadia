@@ -38,7 +38,7 @@ export default function ResumeNew() {
         }}
       >
         <Document
-          file="/Deep_Resume (6).pdf"
+          file="/Deep_Makadia (16).pdf"
           onLoadSuccess={onDocumentLoadSuccess}
           loading={<div>Loading PDF...</div>}
           error={<div>Failed to load PDF file.</div>}
@@ -51,7 +51,7 @@ export default function ResumeNew() {
 
       {/* Download button */}
       <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <a href="/Deep_Resume (6).pdf" download target="_blank" rel="noopener noreferrer">
+        <a href="Deep_Makadia (16).pdf" download target="_blank" rel="noopener noreferrer">
           <button style={{ padding: "10px 20px", fontSize: "1rem", cursor: "pointer" }}>
             Download Resume (PDF)
           </button>
